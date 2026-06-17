@@ -1,0 +1,10 @@
+[project]
+name = "scriptroom"
+version = "0.1.0"
+description = "A multi-agent writer room for screenplay development."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+scriptroom = "scriptroom.cli:main"
+scriptroom-ui = "scriptroom.server:main"
